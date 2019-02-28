@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-echo buildtype.sh
+echo things going too far baby
 
-FILENAME=source/loader/alt_ios_gen.h
+FILENAME="t_ios_gen.h"
 cat <<EOF > $FILENAME
-#define DOL_MAIN_IOS $1
+define DOL_MAIN_IOS $1
 EOF
